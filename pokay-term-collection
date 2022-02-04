@@ -4,4 +4,4 @@
 sed -i -e 's/.txt//g' pokay_terms.txt #remove .txt
 sed -i -e 's/_/ /g' pokay_terms.txt #replace '_' with ' '
 sed -i -e 's/[^ ]* //' pokay_terms.txt #remove everything up to and including the first space
-
+sort pokay_terms.txt | uniq > pokay_sort.txt #order alphabetically, remove duplicates
