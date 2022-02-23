@@ -1,0 +1,1 @@
+grep -o -i "England" reduced_refs.aln.treefile | wc -l
