@@ -34,3 +34,6 @@ BiocManager::install('ggtree')
 #install jupyter notebooks
 conda install jupyter
 conda install -c conda-forge r-irkernel
+
+#back to R
+install.packages('rlang')
