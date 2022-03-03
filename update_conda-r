@@ -11,3 +11,7 @@ conda install -c conda-forge r-base=4.X.X
 conda install jupyter
 
 #https://www.biostars.org/p/498049/
+
+
+Then, to get conda to talk to pkg-config on Ubuntu that contains libcurl.pc:
+conda install -c conda-forge pkgconfig
