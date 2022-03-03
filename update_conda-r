@@ -33,4 +33,4 @@ BiocManager::install('ggtree')
 
 #install jupyter notebooks
 conda install jupyter
-conda install -c r r-irkernel
+conda install -c conda-forge r-irkernel
