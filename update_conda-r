@@ -8,9 +8,10 @@ conda search r-base
 conda create -n your_name_here python=3.8     
 conda activate your_name_here   
 conda install -c conda-forge r-base=4.1.2     
-conda install jupyter
 
 #https://www.biostars.org/p/498049/
+
+#this is to install ggtree, when the error complained about libcurl
 
 Check if I have libcurl in my system:
 pkg-config libcurl --modversion
@@ -28,3 +29,8 @@ BiocManager::install(version = "3.14")
 install.packages('curl')
 install.packages('tidyverse')
 BiocManager::install('ggtree')
+
+
+#install jupyter notebooks
+conda install jupyter
+conda install -c r r-irkernel
