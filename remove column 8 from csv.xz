@@ -1,0 +1,1 @@
+xzcat 03.nn_geodate_min.csv.xz | cut -d, -f8 --complement | xz > /home/ubuntu/03.nn_geodate_min_noadm2.csv.xz
