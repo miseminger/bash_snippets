@@ -1,0 +1,3 @@
+wget https://www.nbi.ac.uk/wp-content/uploads/2018/06/linux_sslvpn.tgz
+tar -xvzf ~/Downloads/linux_sslvpn.tgz
+sudo ./Install.sh
