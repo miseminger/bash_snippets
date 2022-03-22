@@ -1,0 +1,1 @@
+cmp --silent $old $new || echo "files are different"
