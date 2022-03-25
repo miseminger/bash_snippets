@@ -1,0 +1,1 @@
+sed 's/>/>_/g;/England/ s/$/_/g' reduced_queries.aln | grep "England" | head -2
