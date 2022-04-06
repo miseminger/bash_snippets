@@ -1,0 +1,6 @@
+To do this manually:
+
+1) Download a tar.bz2 from anaconda.org (eg https://anaconda.org/bioconda/iqtree/files)
+2) conda install iqtree-2.2.0_beta-hb97b32f_1.tar.bz2
+
+This works even if conda currently has a version of iqtree in it.
