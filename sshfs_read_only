@@ -1,0 +1,1 @@
+sshfs baron@ongaeshi:/mnt/extra/civet /home/ubuntu/ongaeshi-mnt/ -o ro
