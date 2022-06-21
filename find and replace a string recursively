@@ -1,2 +1,3 @@
 grep -rli 'old-word' * | xargs -i@ sed -i 's/old-word/new-word/g' @
 #https://stackoverflow.com/questions/11392478/how-to-replace-a-string-in-multiple-files-in-linux-command-line
+#note that sed can take any separator: for replacing urls, change the separator to ',': 's,old_url,new_url,g'
