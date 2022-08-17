@@ -9,4 +9,4 @@ sort pokay_terms.txt | uniq > pokay_sort.txt #order alphabetically, remove dupli
 
 # in one line:
 
-~/Desktop/pokay/data$ ls | sed -i -e 's/.txt//g;s/_/ /g;s/[^ ]* //' | sort | uniq > pokay_sort.txt
+~/Desktop/pokay/data$ ls | sed -e 's/.txt//g;s/_/ /g;s/[^ ]* //' | sort | uniq > pokay_sort.txt
