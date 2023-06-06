@@ -1,0 +1,3 @@
+# show history entries 4-7 inclusive
+
+fc -l 4 7
