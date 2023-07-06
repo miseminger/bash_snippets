@@ -1,1 +1,3 @@
 nohup <command> > output.txt
+
+# will overwrite the destination file by default
