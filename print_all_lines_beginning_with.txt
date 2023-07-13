@@ -1,0 +1,2 @@
+# print all lines beginning with '<'
+! grep -E '^<' litvar_jul10.csv 
