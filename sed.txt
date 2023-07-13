@@ -1,0 +1,8 @@
+# print line 1
+sed -n '1p' litvar_jul10.csv
+
+# print lines 299-301
+! sed -n '299,301p' litvar_jul10.csv 
+
+# FOR EACH LINE, REMOVE EVERYTHING AFTER FIRST OCCURRENCE OF ",S,", replacing ",S," with ",S"
+! sed -i 's/,S,.*$/,S/' litvar_jul10.csv
