@@ -1,0 +1,2 @@
+# without gene names, and without sorting:
+cat ./Desktop/git_temp/pokay/data/literature/NC_045512/* | grep -v '^[\#]' | grep -v -e '^$' | sed -e 's/;/\\\n/g' | sed -e 's/,/\\\n/g' | sed -e 's/\\//g' | uniq
