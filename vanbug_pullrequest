@@ -2,3 +2,6 @@ git pull --all
 git fetch origin
 git branch -a
 git checkout -b jan-update origin/jan-update
+
+conda activate vanbug
+poetry run mkdocs serve
