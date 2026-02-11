@@ -1,0 +1,7 @@
+https://unix.stackexchange.com/questions/796817/elegant-file-string-search-in-bash
+
+find "$search_dir" -type f -exec grep -H -n -- "$search_str" {} +
+
+eg. while in /home/madeline/Desktop/git_temp/genepio/src:
+
+```find ontology -type f -exec grep -H -n -- "GENEPIO_0100751" {} +```
